@@ -1,0 +1,99 @@
+body{
+  font-family: monospace;
+  color: #464547;
+  text-align: center;
+}
+#headerDiv{
+  background-image: url(resources/headerPic.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+}
+header  {
+          text-align: center;
+
+
+          padding:1.5em 0em 1.5em 0em;
+          font-family: monospace;
+          color: #464547;
+}
+
+footer{
+  background-color: #464547;
+  color: #ffffff;
+}
+
+.footerLogo{
+  max-height: 6em;
+  vertical-align: middle;
+  margin: 1em;
+}
+
+h1  {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.rateBox{
+  /* background-color: #047db1e6; */
+  opacity: .75;
+  filter: alpha(opacity=75); /* For IE8 and earlier */
+  border-radius: 25px;
+  background: rgba(4,125,177,.9);
+  color: rgba(255,255,255,1);
+}
+
+.rateBoxSub{
+  background: rgba(3,100,141,.95);
+  border-radius: 25px;
+  margin: 3px;
+}
+
+#headerBox{
+  max-width: 1280px;
+}
+
+.nav-link{
+  display: table;
+  color: #464547;
+}
+
+#navDiv{
+  max-width: 1280px;
+  text-align: left;
+}
+
+#navDiv > a > img{
+  max-height: 3em;
+  vertical-align: middle;
+  margin: 1em;
+}
+
+
+
+#navBar {
+  display: inline-flex;
+}
+
+#navDivider{
+  background-color: #737675;
+  height: 2em;
+}
+
+#wrapper  {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFFFFF;
+            max-width: 960px;
+            text-align: center;
+}
+
+.btn{
+  background-color: #F79E37;
+  border-color: #F79E37;
+  color: #464547;
+  font-family: monospace;
+  border-radius: 25px;
+  width: 100%;
+  margin: 1px
+}
