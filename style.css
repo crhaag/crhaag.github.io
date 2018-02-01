@@ -80,6 +80,10 @@ h1  {
   height: 2em;
 }
 
+.nav-justified .nav-item {
+  flex-basis: auto; /*somehow gets the nav bar to space evenly*/
+}
+
 #wrapper  {
             margin-left: auto;
             margin-right: auto;
